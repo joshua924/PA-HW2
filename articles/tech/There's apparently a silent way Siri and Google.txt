@@ -1,0 +1,12 @@
+There's apparently a silent way Siri and Google Now can take orders from a hacker across the room who wouldn't even have to utter a word.
+
+The newly spotlighted hack is detailed in a report from researchers at the French Network and Information Security Agency. While it's worth noting it takes a special set of circumstances to pull off the hack, the idea of someone secretly ordering your phone to open a website, eavesdropping on your conversations or sending text messages is terrifying.
+
+Ukrainian Hacker Who Allegedly Tried to Frame Cyber-Security Expert Extradited to US
+Here's how it works: When a pair of microphone-enabled headphones is plugged into a device with Siri or Google Now enabled, hackers can then use the headphone cord as an antenna. Working from a laptop nearby, a hacker can then use open-source radio software, an amplifier and an antenna to send radio waves triggering voice commands, which can then be picked up by the headphone wire plugged into the targeted phone and then executing them on the phone, which is tricked into believing they are voice commands, according to the report, which was detailed today in Wired.
+
+Apple and Google did not immediately respond to ABC News' request for comment on the report. However, the researchers note that concerned smartphone users can protect themselves by disabling Siri or Google Now access from the lock screen.
+
+The researchers have also reached out to Apple and Google, according to Wired, suggesting both companies could create better shielding on their headphone cords, which would then force hackers to use a stronger radio signal. Another idea involves adding an electromagnetic sensor in the phone to block an attack.
+
+Perhaps a simpler idea to prevent the hack: Researchers recommend both companies let users create their own "wake words" to launch their virtual personal assistants.

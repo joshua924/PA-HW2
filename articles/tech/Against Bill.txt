@@ -1,0 +1,28 @@
+Apple, Twitter and some of the biggest names in Silicon Valley have come out swinging against a controversial cyber security bill that could soon be put to a vote in the U.S. Senate.
+
+Supporters of the Cyber Security Information Sharing Act of 2015, also known as CISA, say it would help companies and the government share information that could thwart cyber attacks, such as the catastrophic hack that hit Sony nearly a year ago, while those against it say it infringes on privacy.
+
+"We don’t support the current CISA proposal. The trust of our customers means everything to us and we don’t believe security should come at the expense of their privacy," an Apple representative told ABC News in an email.
+
+Why Google and Apple Don't Want to Give Law Enforcement the Master Key to Your Data
+Here's a breakdown of what you need to know about the bill.
+
+What the Bill Is About
+
+The idea at the center of CISA is to create a cyber security sharing environment between corporations and the government without the fear of lawsuits. If passed, companies would be able to voluntarily share information about users with the government in an effort to stop debilitating cyber attacks from happening.
+
+Why Supporters Want to Make It a Law
+
+The bill has bipartisan support and opposition. Sen. Richard Burr, R-North Carolina, one of the sponsors of the bill, said creating a voluntary sharing environment would help protect Americans.
+
+"Hackers have stolen detailed information about Americans’ families, their medical history and their financial data and exposed that information to criminals and foreign governments," he said in a statement. "It’s time to take action to keep Americans safe and to reinforce our defenses against adversaries that we cannot see before we fall further behind on this new battlefront."
+
+According to supporters, CISA would require companies and the government to remove any personally identifiable information deemed irrelevant before sharing intelligence about cyber threat indicators.
+
+Who's Against It
+
+Opponents of the bill say it does too little to prevent cyber attacks and comes at an enormous cost to the privacy of millions of Americans, calling it a "surveillance bill."
+
+The Computer and Communications Industry Association, a trade group representing tech titans including Facebook and Google, said it can't support CISA "as it is currently written."
+
+"CISA’s prescribed mechanism for sharing of cyber threat information does not sufficiently protect users’ privacy or appropriately limit the permissible uses of information shared with the government," a statement from the group said. "In addition, the bill authorizes entities to employ network defense measures that might cause collateral harm to the systems of innocent third parties."

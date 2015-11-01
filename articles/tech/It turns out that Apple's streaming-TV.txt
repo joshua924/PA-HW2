@@ -1,0 +1,55 @@
+It turns out that Apple's streaming-TV box — aptly named Apple TV — isn't just for streaming anymore. Its latest incarnation, which ships this week, offers on the big screen just about anything you could previously only do on an iPhone or iPad.
+
+Whether that's good may depend on whether you really want to buy shoes, browse home listings or read comic books on your TV. The new Apple TV looks to be a capable device for those purposes, although it's not flawless. Its streaming-TV features also trump those of its predecessor.
+
+The new Apple TV will set you back $149, or $199 for a version with extra storage. Apple will still sell the old version for $69. Neither requires an iPhone or iPad, although either iDevice can simplify the Apple TV setup process.
+
+———
+
+THE BASICS
+
+Apple TV has been a dependable streamer, but until now its repertoire was limited to a few dozen services. Sure, these included Netflix, Hulu and HBO. But Apple didn't let you add other channels — say, competitive videogame play from Twitch.tv — on your own.
+
+That's all changed. The new Apple TV features an iPhone-like app store that lets you choose your own streaming services. And it's no longer pushy about steering you to iTunes and other Apple services. You can easily customize the home screen with your favorites.
+
+Video quality on the new Apple TV maxes out at full high definition, known technically as 1080p. That should be plenty for most people. Video enthusiasts may complain that it doesn't support a higher-quality video standard called ultra-high definition or 4K, as several other streaming boxes do. But there aren't many 4K TVs or much programming for them available yet.
+
+The Apple TV remote doesn't have a headphone jack, which other streaming devices like the Roku 3 and 4 and the Nvidia Shield offer to spare your family and roommates late at night. It can be tricky doing chores with a remote dangling from your headphone cords. What Apple TV offers instead is support for Bluetooth wireless headphones — sold separately, of course, by Apple and others.
+
+It's not yet clear whether you'll be able to stream video from Amazon and Google Play. Both companies have competing video stores, and one sticking point could be the cut Apple takes on in-app digital sales. Other major services, including Google's YouTube, are expected on the Apple TV.
+
+———
+
+INNOVATIONS
+
+The new Apple TV enables voice searches using the Siri virtual assistant. Request "Seinfeld" or Jennifer Lawrence, and Apple TV will look through catalogs for iTunes, Hulu, Netflix, HBO and Showtime, with more to come. You can even ask for "good documentaries to watch."
+
+Although similar capabilities are available on other devices, Apple TV goes further in a few ways:
+
+— The remote replaces traditional rewind and forward buttons with a laptop-style trackpad. By sliding left and right, you control playback and navigate the on-screen keyboard more quickly. Sliding down gets you settings and show details, when available. The remote also lets you control the TV's power and volume directly, something I've seen only with TiVo video players.
+
+— You can control playback by asking Siri to rewind 45 seconds or jump ahead five minutes, though some services won't let you forward past commercials. Saying "What did she say?" will rewind video 15 seconds and briefly turn on closed captioning, when available. It works fully with iTunes for now, but the closed-captioning part doesn't work with all third-party services yet.
+
+— You can ask Siri for a specific episode, such as the "How I Met Your Mother" episode with Katie Holmes. Guest stars tend to trip up rival devices.
+
+———
+
+BEYOND STREAMING
+
+Siri offers weather, stocks and sports information. It was great for tracking Tuesday's World Series opener without watching the game. This feature isn't unique to Apple TV, but unlike the competition, Apple TV feeds you info without interrupting your video by sliding up results from the bottom of the screen.
+
+I had to rephrase or repeat my questions a few times, especially if I was speaking quickly. As long as I enunciated clearly, results were mostly satisfactory. Apple TV's version of Siri, however, won't handle general Web searches.
+
+Apple TV catches up with rivals in enabling games. The remote has sensors that let you navigate spaceships and swing baseball bats by moving it around. But a bigger potential lies in bringing other apps to the big screen.
+
+You can browse home to buy through Zillow and places to stay on vacation through Airbnb. Images on the big TV gave me a better sense of these properties than phone browsing would. You can also shop through Gilt and QVC.
+
+———
+
+ROOM TO GROW
+
+Apple still needs to persuade developers to make more apps that really exploit the larger, and often shared, TV screen. Many of the apps now available are limited to one user profile or account, making them difficult for others to use.
+
+It would also be nice for Apple TV to work better with payment services. You can easily buy videos and games with your iTunes account, but non-digital products are another story. Airbnb, for instance, will let you "favorite" places to stay, but you'll need a phone or computer to book a room. It's not exactly the relaxed, couch-potato experience you expect from TV.
+
+Generally speaking, though, the new Apple TV has taken an important first step into a broader world. Plenty of devices do video and games well. With a new range of non-streaming apps, Apple has an opportunity to do much more than that.
