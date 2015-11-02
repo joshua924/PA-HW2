@@ -1,7 +1,10 @@
-package edu.nyu.pa.sz1288;
+package edu.nyu.pa.sz1288.clustering;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import edu.nyu.pa.sz1288.Article;
+import edu.nyu.pa.sz1288.Cluster;
 
 public class KMeansClustering implements Clustering {
 	private static final int NUM_OF_CLUSTERS = 4;
@@ -9,6 +12,7 @@ public class KMeansClustering implements Clustering {
 	@Override
 	public List<Cluster> getClusters(List<Article> instances, int distanceMeasure) {
 		List<Cluster> curr = new ArrayList<Cluster>(NUM_OF_CLUSTERS);
+		System.out.println("Clutering using " + Article.getMeasureName(distanceMeasure) + " ..");
 		
 		// initialization
 		for(int i=0; i<NUM_OF_CLUSTERS; i++) {
@@ -27,17 +31,17 @@ public class KMeansClustering implements Clustering {
 				Cluster minCluster = null;
 				double minDistance = Double.MAX_VALUE;
 				for(Cluster cluster : curr) {
-					if(Article.distance(article, cluster, distanceMeasure) < minDistance) {
+					double distance = Article.distance(article, cluster, distanceMeasure);
+					if(distance < minDistance) {
 						minCluster = cluster;
+						minDistance = distance;
 					}
 				}
 				minCluster.addInstance(article);
 			}
-			for (Cluster cluster2 : curr) {
-				System.out.println(cluster2.size());
-			}
 			updateAllClusters(curr);
 		}
+		System.out.println("Clustering finished.");
 		return curr;
 	}
 
@@ -62,5 +66,4 @@ public class KMeansClustering implements Clustering {
 			System.out.println("-------------------------------------------------------------");
 		}
 	}
-
 }

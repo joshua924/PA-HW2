@@ -1,9 +1,8 @@
 package edu.nyu.pa.sz1288;
 
-import java.util.Random;
-
 public class Article {
 	private static final int NUM_OF_HASHING = 400;
+	private static final String[] MEASURES = {"Invalid", "Euclidean Distance", "Min Hash Distance", "Cosine Distance"};
 	private String title;
 	private double[] wordVector;
 
@@ -19,6 +18,8 @@ public class Article {
 			return euclideanDistance(a1, a2);
 		} else if(distanceMeasure == 2) {
 			return minHashDistance(a1, a2);
+		} else if (distanceMeasure == 3) {
+			return cosineDistance(a1, a2);
 		} else throw new IllegalArgumentException("Not Implemented !");
 	}
 
@@ -35,10 +36,10 @@ public class Article {
 		int len = Math.min(a1.wordVector.length, a2.wordVector.length);
 		double res = 0.0;
 		int interval = len / NUM_OF_HASHING;
-		Random r = new Random();
 		for(int i=0; i < NUM_OF_HASHING; i++) {
-			int start = r.nextInt(len - interval);
-			res += jaccardDistance(a1.getWordVector(), a2.getWordVector(), start, start + interval);
+			int start = i * interval;
+			double jaccardDistance = jaccardDistance(a1.getWordVector(), a2.getWordVector(), start, start + interval);
+			res += jaccardDistance;
 		}
 		return res / NUM_OF_HASHING;
 	}
@@ -53,7 +54,24 @@ public class Article {
 				union += 1.0;
 			}
 		}
-		return 1 - intersect / union;
+		return union == 0.0 ? 1 : (1 - intersect / union);
+	}
+	
+	private static double cosineDistance(Article a1, Article a2) {
+		int len = Math.min(a1.wordVector.length, a2.wordVector.length);
+		double res = 0.0;
+		for(int i=0; i<len; i++) {
+			res += a1.getWordVector()[i] * a2.getWordVector()[i];
+		}
+		return 1 - res / (a1.getWordVectorLength() * a2.getWordVectorLength());
+	}
+	
+	private double getWordVectorLength() {
+		double res = 0.0;
+		for(double each : wordVector) {
+			res += Math.pow(each, 2.0);
+		}
+		return Math.sqrt(res);
 	}
 	
 	@Override
@@ -67,6 +85,13 @@ public class Article {
 
 	public double[] getWordVector() {
 		return wordVector;
+	}
+	
+	public static String getMeasureName(int measure) {
+		if(measure > 3) {
+			throw new IllegalArgumentException("Not Implemented !");
+		}
+		return MEASURES[measure];
 	}
 
 	@Override

@@ -43,9 +43,10 @@ public class ArticleReader {
 				sc.close();
 			}
 			
-			// second round create articles
+			// second round create articles, using term frequency
 			System.out.println("Creating Articles ..");
 			for (File file : fileList) {
+				int wordCount = 0;
 				Scanner sc = new Scanner(file);
 				double[] wordVector = new double[wordIndex];
 				String line;
@@ -56,14 +57,19 @@ public class ArticleReader {
 						String[] tokens = line.split(" ");
 						for(String token : tokens) {
 							if(!sw.isStopWord(token)) {
+								wordCount++;
 								wordVector[_dict.get(token)]++;
 							}
 						}
 					}
 				}
+				for(int i=0; i<wordVector.length; i++) {
+					wordVector[i] /= wordCount;
+				}
 				articles.add(new Article(file.getName(), wordVector));
 				sc.close();
 			}
+			System.out.println("done.");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -81,9 +87,4 @@ public class ArticleReader {
 			}
 		}
 	}
-	
-//	public static void main(String args[]) {
-//		ArticleReader.createArticles("articles", "stopwords.txt");
-//		System.out.println(ArticleReader._dict);
-//	}
 }

@@ -2,7 +2,10 @@ package edu.nyu.pa.sz1288;
 
 import java.util.List;
 
-public class ClusteringTester {
+import edu.nyu.pa.sz1288.clustering.Clustering;
+import edu.nyu.pa.sz1288.clustering.KMeansClustering;
+
+public class ClusteringRunner {
 	public static void main(String args[]) {
 		String filePath = args[0];
 		String stopWordFile = args[1];

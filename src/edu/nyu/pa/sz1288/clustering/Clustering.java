@@ -1,6 +1,9 @@
-package edu.nyu.pa.sz1288;
+package edu.nyu.pa.sz1288.clustering;
 
 import java.util.List;
+
+import edu.nyu.pa.sz1288.Article;
+import edu.nyu.pa.sz1288.Cluster;
 
 public interface Clustering {
 	/**
