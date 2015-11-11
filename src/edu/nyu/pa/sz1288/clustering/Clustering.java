@@ -12,7 +12,7 @@ public interface Clustering {
 	 * @param distanceMeasure 
 	 * @return a list of clusters, each of which contains a set of articles
 	 */
-	public List<Cluster> getClusters(List<Article> instances, int distanceMeasure);
+	public List<Cluster> getClusters(List<? extends Article> instances, int distanceMeasure);
 	
 	/**
 	 * 

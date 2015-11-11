@@ -1,14 +1,19 @@
-package edu.nyu.pa.sz1288;
+package edu.nyu.pa.sz1288.io;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
+import edu.nyu.pa.sz1288.Article;
+import edu.nyu.pa.sz1288.Stopword;
+
 public class ArticleReader {
+	private static final String FILE = "wordVector.csv";
 	private static Map<String, Integer> _dict = new HashMap<>();
 	
 	public static List<Article> createArticles(String filePath, String stopWordFile) {
@@ -86,5 +91,24 @@ public class ArticleReader {
 				}
 			}
 		}
+	}
+	
+	public static String dumpWordVectorToFile(List<Article> articles) throws Exception {
+		File file = new File("vector", FILE);
+		PrintWriter pw = new PrintWriter(file);
+		String toWrite = "";
+		for(int i=1; i<=_dict.size(); i++) {
+			toWrite += "w-" + i + ",";
+		}
+		pw.write(toWrite.substring(0, toWrite.length() - 1) + "\n");
+		for(Article art : articles) {
+			toWrite = "";
+			for(double each : art.getWordVector()) {
+				toWrite += each + ",";
+			}
+			pw.write(toWrite.substring(0, toWrite.length() - 1) + "\n");
+		}
+		pw.flush(); pw.close();
+		return file.getPath();
 	}
 }

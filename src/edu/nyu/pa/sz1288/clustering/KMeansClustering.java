@@ -10,7 +10,7 @@ public class KMeansClustering implements Clustering {
 	private static final int NUM_OF_CLUSTERS = 4;
 
 	@Override
-	public List<Cluster> getClusters(List<Article> instances, int distanceMeasure) {
+	public List<Cluster> getClusters(List<? extends Article> instances, int distanceMeasure) {
 		List<Cluster> curr = new ArrayList<Cluster>(NUM_OF_CLUSTERS);
 		System.out.println("Clutering using " + Article.getMeasureName(distanceMeasure) + " ..");
 		
